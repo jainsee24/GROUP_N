@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<style type="text/css">
+		#a{
+
+			position: absolute;
+			top:0px;
+			bottom: 0px;
+			left:0px;
+			width: 50%;
+		}
+		p{
+			font-size: 38px;
+			color: blue;
+		}
+		#b{
+			margin-left: 0px;
+			float:right;
+			width: 50%;
+		}
+		p1{
+			font-size: 20px;
+		}
+	</style>
+	<title>Approving</title>
+</head>
+<body>
+	<div>
+	<div id="a">
+		<p>Thesis</p>
+		<embed src="C:\Users\sj\Desktop\1.pdf" width="800px" height="600px" />
+	</div>
+	<div id="b">
+		<form action="update_approval.jsp" method="post">
+		<br><br><br><br><br><br><br><br><br><br>
+		<p1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspEvaluated by (Name):</p1>
+		<input type="text" name="person_approving" >
+		<br>
+		<br>
+		<p1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspEvaluating for:(phd)</p1>
+		<input type="text" name="phd_name" >
+		<br>
+		<br>
+		<p1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspApproved</p1>
+		<input type="checkbox" name="as">
+		<br><br>
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit" name="submit">
+	   </form>
+	</div>
+	</div>
+</body></html>
